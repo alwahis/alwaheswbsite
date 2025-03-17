@@ -1,0 +1,6 @@
+# Alwahes Website Robots.txt
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://alwahes.vercel.app/sitemap.xml
