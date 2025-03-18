@@ -86,14 +86,14 @@ section {
 
 /* Header Styles */
 header {
-  background-color: white;
-  box-shadow: var(--shadow);
+  background-color: #333;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 header .container {
@@ -105,10 +105,16 @@ header .container {
 .logo {
   font-size: 24px;
   font-weight: 700;
+  padding: 5px;
 }
 
 .logo img {
-  height: 40px;
+  height: 50px;
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.05);
 }
 
 nav {
@@ -122,9 +128,10 @@ nav {
 }
 
 .nav-menu li a {
-  color: var(--secondary-color);
+  color: white;
   font-weight: 500;
   padding: 5px 10px;
+  transition: all 0.3s ease;
 }
 
 .nav-menu li a:hover {
@@ -135,17 +142,18 @@ nav {
   display: none;
   font-size: 24px;
   cursor: pointer;
+  color: white;
 }
 
 /* Hero Section */
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hero-background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-background.svg');
   background-size: cover;
   background-position: center;
   color: white;
   text-align: center;
   padding: 150px 0 100px;
-  margin-top: 0;
+  margin-top: 70px;
 }
 
 .hero-content {

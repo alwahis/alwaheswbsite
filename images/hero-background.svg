@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#444444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111111;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#grad)"/>
+  
+  <!-- City skyline silhouette -->
+  <path d="M0,600 L0,400 L50,400 L70,350 L100,350 L120,300 L150,300 L170,350 L200,350 L220,250 L250,250 L270,350 L300,350 L320,400 L350,400 L370,300 L400,300 L420,350 L450,350 L470,400 L500,400 L520,350 L550,350 L570,300 L600,300 L620,350 L650,350 L670,400 L700,400 L720,350 L750,350 L770,300 L800,300 L820,350 L850,350 L870,400 L900,400 L920,350 L950,350 L970,300 L1000,300 L1020,350 L1050,350 L1070,400 L1100,400 L1120,350 L1150,350 L1170,400 L1200,400 L1200,600 Z" fill="#222222"/>
+  
+  <!-- Roads -->
+  <path d="M0,500 L1200,500" stroke="#555555" stroke-width="10"/>
+  <path d="M0,550 L1200,550" stroke="#555555" stroke-width="5"/>
+  
+  <!-- Cars (simplified) -->
+  <g transform="translate(200, 480)">
+    <rect x="0" y="0" width="40" height="15" fill="#ff7800" rx="3"/>
+    <circle cx="10" cy="15" r="5" fill="#333333"/>
+    <circle cx="30" cy="15" r="5" fill="#333333"/>
+  </g>
+  
+  <g transform="translate(500, 480)">
+    <rect x="0" y="0" width="50" height="15" fill="#3366cc" rx="3"/>
+    <circle cx="15" cy="15" r="5" fill="#333333"/>
+    <circle cx="35" cy="15" r="5" fill="#333333"/>
+  </g>
+  
+  <g transform="translate(800, 480)">
+    <rect x="0" y="0" width="45" height="15" fill="#cc3366" rx="3"/>
+    <circle cx="12" cy="15" r="5" fill="#333333"/>
+    <circle cx="33" cy="15" r="5" fill="#333333"/>
+  </g>
+  
+  <!-- Street lights -->
+  <g transform="translate(100, 490)">
+    <line x1="0" y1="0" x2="0" y2="-50" stroke="#666666" stroke-width="2"/>
+    <circle cx="0" cy="-50" r="5" fill="#ffcc00"/>
+  </g>
+  
+  <g transform="translate(400, 490)">
+    <line x1="0" y1="0" x2="0" y2="-50" stroke="#666666" stroke-width="2"/>
+    <circle cx="0" cy="-50" r="5" fill="#ffcc00"/>
+  </g>
+  
+  <g transform="translate(700, 490)">
+    <line x1="0" y1="0" x2="0" y2="-50" stroke="#666666" stroke-width="2"/>
+    <circle cx="0" cy="-50" r="5" fill="#ffcc00"/>
+  </g>
+  
+  <g transform="translate(1000, 490)">
+    <line x1="0" y1="0" x2="0" y2="-50" stroke="#666666" stroke-width="2"/>
+    <circle cx="0" cy="-50" r="5" fill="#ffcc00"/>
+  </g>
+</svg>
